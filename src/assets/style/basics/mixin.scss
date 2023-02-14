@@ -1,0 +1,17 @@
+@mixin button {
+    background-color: $clr1;
+    border: 1px solid $clr3;
+    border-radius: 500px;
+    padding: 10px 5px;
+    color: $clr3;
+    width: 65px;
+    text-align: center;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 0.8rem;
+
+    &:hover{
+        color: $clr2;
+        border: 1px solid $clr2;
+    }
+}

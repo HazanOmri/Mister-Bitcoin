@@ -1,9 +1,10 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 
 import HomeView from '../pages/HomeView.vue'
-import CarIndex from '../pages/car-index.vue'
-import CarDetails from '../pages/car-details.vue'
-import CarEdit from '../pages/car-edit.vue'
+import Stats from '../pages/stats.vue'
+import ContactList from '../pages/contact-list.vue'
+import ContactDetails from '../pages/contact-details.vue'
+import ContactEdit from '../pages/contact-edit.vue'
 
 const routerOptions = {
     history: createWebHashHistory(import.meta.env.BASE_URL),
@@ -13,16 +14,20 @@ const routerOptions = {
             component: HomeView,
         },
         {
-            path: '/car',
-            component: CarIndex,
+            path: '/contact-list',
+            component: ContactList,
         },
         {
-            path: '/car/:_id',
-            component: CarDetails,
+            path: '/contact/:_id',
+            component: ContactDetails,
         },
         {
-            path: '/car/edit/:_id?',
-            component: CarEdit,
+            path: '/stats',
+            component: Stats,
+        },
+        {
+            path: '/contact/edit/:_id?',
+            component: ContactEdit,
         },
         {
             path: '/about',

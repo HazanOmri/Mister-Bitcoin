@@ -1,0 +1,29 @@
+.contact-preview {
+    display: grid;
+    grid-template-columns: 40px 1fr 100px;
+    align-items: center;
+    border: 3px solid $clr3;
+    border-radius: 10px;
+    box-shadow: red;
+    padding: 10px 5px;
+
+    .actions {
+        grid-column: -1;
+        display: flex;
+        gap: 15px;
+        margin-inline-end: 10px;
+    }
+
+    span {
+        font-size: 25px;
+    }
+
+    img {
+        width: 30px;
+    }
+
+    a,
+    button {
+        @include button
+    }
+}

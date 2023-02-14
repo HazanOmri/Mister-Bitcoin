@@ -1,0 +1,23 @@
+.contact-edit {
+    display: grid;
+    justify-items: center;
+    gap: 5px;
+    padding: 10px;
+    padding-top: 50px;
+
+    input {
+        border: 1px solid $clr3;
+        padding: 5px 10px;
+        border-radius: 10px;
+        width: 250px;
+    }
+
+    button {
+        margin-top: 20px;
+        @include button
+    }
+
+    img {
+        width: 200px;
+    }
+}

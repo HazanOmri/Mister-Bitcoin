@@ -1,0 +1,10 @@
+.stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .chart-container{
+        width: 45vw;
+    }
+}

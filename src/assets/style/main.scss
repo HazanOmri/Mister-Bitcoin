@@ -1,8 +1,17 @@
+//BASE
+@import 'basics/variables.scss';
+@import 'basics/base.scss';
+@import 'basics/mixin.scss';
+@import 'basics/latout.scss';
+
+
+//CMPS
 @import 'cmps/app-header.scss';
 @import 'cmps/app-footer.scss';
-@import 'cmps/car-list.scss';
-@import 'cmps/car-preview.scss';
-@import 'cmps/car-details.scss';
-@import 'cmps/car-edit.scss';
-@import 'cmps/car-filter.scss';
 @import 'cmps/user-msg.scss';
+@import 'cmps/contact-edit.scss';
+@import 'cmps/contact-details.scss';
+@import 'cmps/contact-list.scss';
+@import 'cmps/contact-preview.scss';
+@import 'cmps/stats.scss';
+@import 'cmps/home.scss';

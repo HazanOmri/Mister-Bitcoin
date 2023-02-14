@@ -1,0 +1,21 @@
+.contact-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contact-details {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        align-items: center;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    a{
+        @include button
+    }
+}
